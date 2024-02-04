@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;  
+}
+
+body{
+    background-image: url("./images/bg-image.jpg");
+    background-size: cover;
+}
+
+h1{
+    background-color: tomato;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    gap: 3rem;
+    
+}
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: springgreen;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 800;
+    color: wheat;
+    margin: 4rem;
+    gap: 3rem;
+}
+
+#user-score, #comp-score{
+    font-size: 4rem;
+    color: white;
+    background-color: gold;
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#msg{
+    padding: 1rem;
+    color: white;
+    background-color: dimgrey;
+    font-size: 2rem;
+    font-weight: 600;
+    display: inline;
+    border-radius: 10px;
+    border: 4px solid gold;
+}
+
+footer{
+    margin-top: 5rem;
+    background-color: greenyellow;
+    font-size: 20px;
+    color: crimson;
+    font-weight: 600;
+
+}
+.footer{
+    background-color: greenyellow;
+    font-size: 20px; 
+    margin-top: 2rem; 
+}
+
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 2652px){
+    footer{
+        margin-top: 18rem;
+        margin-bottom: 0;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .choices {
+        flex-direction: column;  /* Change to column on small screens */
+        align-items: center;
+    }
+
+    .choice {
+        margin-bottom: 1rem;
+    }
+
+    .score-board {
+        margin: 2rem;
+    }
+
+    #msg {
+        text-align: justify;
+        justify-content: center;
+        display: inline-block;
+        font-size: 1.5rem;  /* Adjust font size for smaller screens */
+        padding: 0.5rem;
+        /* width: 110%; */
+        /* height: 110%;   Adjust padding for smaller screens */
+    }
+    .footer{
+        margin-bottom: 0;
+    }
+}
