@@ -26,26 +26,26 @@ This project is a web-based implementation of the Rock, Paper, and Scissors game
 1. Open a Command Prompt or PowerShell window and navigate to the project directory.
   
 2. Run the following commands:
-   ```npm install```
+   ```npm install
 3. After installation, start the game:
-   ```npm start```
+   ```npm start
 4. Open your web browser and go to `http://localhost:3000` to play the game.
    
 ### macOS
 1. Install Homebrew if not already installed.
 2. Open a Terminal window and install Node.js using Homebrew:
 
-   ```brew install node```
+   ```brew install node
 4. Clone this repository to your local machine.
    
   ```git clone  https://github.com/MystAdil/Rock-Paper---Scissors-Game```   
 4. Navigate to the project directory in the Terminal.
 5. Run the following commands:
  
-   ```npm install```
+   ```npm install
 6. After installation, start the game:
 
-   ```npm start```
+   ```npm start
    
 7.  Open your web browser and go to `http://localhost:3000 to play the game`.   
 
@@ -55,6 +55,7 @@ This project is a web-based implementation of the Rock, Paper, and Scissors game
 2. Clone this repository to your local machine.
    ```bash
    git clone https://github.com/MystAdil/Rock-Paper---Scissors-Game
+   
 ###Usage
 
 1. Open the game in your web browser.
