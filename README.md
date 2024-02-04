@@ -67,7 +67,7 @@ This project is a web-based implementation of the Rock, Paper, and Scissors game
 
 
 ## Contributing
-If you'd like to contribute to this project, please follow the `contribution guidelines`.
+If you'd like to contribute to this project, please follow the [contribution guidelines].
 
 ## Contribution Guidelines
 Thank you for considering contributing to the Rock Paper and Scissors Game project! By contributing, you help improve the project for everyone. Please take a moment to review these guidelines before getting started.
@@ -118,7 +118,7 @@ Open a pull request on the official repository. Clearly describe your changes, t
 -Please adhere to the project's Code of Conduct. Treat everyone with respect and kindness.
 
 ### License
-By contributing to this project, you agree that your contributions will be licensed under the project's MIT License.
+By contributing to this project, you agree that your contributions will be licensed under the project's [MIT License].
 
 ### Need Help?
 If you have questions or need help, feel free to reach out to us by opening an issue.
@@ -126,4 +126,4 @@ If you have questions or need help, feel free to reach out to us by opening an i
 Thank you for contributing to the Rock Paper and Scissors Game project!
 
 ### License
-This project is licensed under the `MIT License`.   
+This project is licensed under the [MIT License].   
